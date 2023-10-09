@@ -1,0 +1,67 @@
+body{
+    background-image: url(/media/background.jpg);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+  }
+  .adicionar{
+    border: solid 2px rgb(145, 216, 79);
+    border-radius: 15px;
+    width:476px;
+    border-bottom: solid 1px rgb(145, 216, 79);
+    cursor:pointer;
+  }
+  .adicionar:hover{
+    background-color:rgb(145, 216, 79) ;
+  }
+  .button {
+    color:white;
+    padding:10px;
+    margin-bottom:10px; ;
+    
+    
+    background-color: rgb(145, 216, 79);
+    border: none;
+    border-radius:16px;
+    cursor:pointer;
+  }
+  .button:hover {
+    background-color: rgb(120, 190, 60); 
+    
+  }
+  
+  .table {
+    background-color: #ededed;
+    border: solid 2px rgb(145, 216, 79);
+    border-radius:15px;
+    padding:10px;
+  }
+  
+  .table tr :hover {
+    background-color: rgb(120, 190, 60);  
+    
+  }
+  .editar{
+    border-radius:5px;
+    border: solid 2px rgb(120, 190, 60);
+  }
+  .editar:hover{
+    cursor:pointer;
+    
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-in.show {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+  
+  
